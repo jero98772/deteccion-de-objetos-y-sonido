@@ -35,7 +35,6 @@ void handleRoot() {
   delay(2000);
   String html = "<!DOCTYPE html> <html> <body> <h1>distance</h1> <head><meta http-equiv=\"refresh\" content=\"2\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"></head> <div id=\"light\">";
   html += distance;
-  html += "</div><h1>Random Number</h1><div id=\"random\">";
   html += "</div> </body> </html>";
   server.send(200, "text/html", html);
   count++;
