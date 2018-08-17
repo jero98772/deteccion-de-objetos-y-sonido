@@ -33,7 +33,7 @@ void handleRoot() {
   Serial.print("Distance: ");
   Serial.println(distance);
   delay(2000);
-  String html = "<!DOCTYPE html> <html> <body> <h1>distance</h1> <head><meta http-equiv=\"refresh\" content=\"2\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"></head> <div id=\"light\">";
+  String html = "<!DOCTYPE html> <html> <body> <h1>distance</h1> <head><meta http-equiv=\"refresh\" content=\"2\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"></head> <div id=\"distancia\">";
   html += distance;
   html += "</div> </body> </html>";
   server.send(200, "text/html", html);
