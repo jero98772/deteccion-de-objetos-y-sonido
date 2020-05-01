@@ -8,8 +8,8 @@ const int echoPin = 0;  //D3
 long duration;
 int distance;
 
-const char *ssid = "cyborg";
-const char *password = "ultrasonico";
+const char *ssid = "ssid";
+const char *password = "password";
 int milisInterval = 2000;
 int count = 0;
 ESP8266WebServer server(80);
