@@ -1,5 +1,6 @@
 # deteccion-de-objetos-y-sonido
 es un codigo para probar el senor ultrasonico con una interfas web
+para probarlo ir a [test](https://www.tinkercad.com/things/46njH9TCk48)
 # materiales
 ### esp8266 wemos d1 mini
 ### sensor HC-SR04
