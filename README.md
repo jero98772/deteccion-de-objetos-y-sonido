@@ -15,6 +15,3 @@ el G  del wemos al Gnd  del sensor de utra sonido
 ![alt imagen del diagrma de pines](https://github.com/jero98772/deteccion-de-objetos-y-sonido/blob/master/pines.jpg)
 # cambios que nesitas hacerle
 cambiar el nombre de la red (ssid) y la contraseña (password) en el codigo en la linea 11 y 12
-#### contibuye con donaciones 
-	
-	- Bitcoin: bc1qf3eh6ssgzw2t3qyjk2gzwuskq4ctfk8375fg3r
